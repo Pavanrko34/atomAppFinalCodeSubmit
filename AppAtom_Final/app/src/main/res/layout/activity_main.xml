@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/imgfirst"
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/imgfirst" />
+
+    <TextView
+        android:id="@+id/txtMeditation"
+        android:fontFamily="monospace"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="@string/make_meditation_a_habit_you_love"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="25dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnGoogle"
+            android:layout_height="60dp"
+            android:background="#4CAF50"
+            android:fontFamily="monospace"
+            android:text="Continue with google"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="25dp"
+        android:scrollbarSize="18sp"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnGuest"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#4CAF50"
+            android:fontFamily="monospace"
+            android:text="Continue as a guest"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtTerms"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/terms"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

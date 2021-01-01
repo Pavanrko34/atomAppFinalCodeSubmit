@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278860255338",
+    "project_id": "atomappfinal",
+    "storage_bucket": "atomappfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278860255338:android:00e606ea15149c8a957a13",
+        "android_client_info": {
+          "package_name": "com.pavanapp.appatom_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278860255338-ntr0q5l65ha4mkilu0fuski81gqjh1er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKhSjtHqAPhb5NalPh9YAzTj01sxWc87g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278860255338-ntr0q5l65ha4mkilu0fuski81gqjh1er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

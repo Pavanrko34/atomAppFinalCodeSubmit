@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    >
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, what do your friends call you?"
+        android:textSize="25sp"
+        android:textAlignment="viewStart"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="Type your name here"
+        android:fontFamily="monospace"
+        android:minLines="1"
+        android:maxLength="10"
+        android:layout_marginBottom="30dp"
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="25dp"
+        android:scrollbarSize="18sp"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:background="#4CAF50"
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
